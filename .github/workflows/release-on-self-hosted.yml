@@ -1,6 +1,8 @@
 name: Auto Build ollama (Self hosted)
 
 on:
+  schedule:
+    - cron: '23 18 * * *'
   workflow_dispatch:
 
 env:
